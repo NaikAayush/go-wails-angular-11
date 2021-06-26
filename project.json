@@ -1,0 +1,25 @@
+{
+  "name": "go-gui",
+  "description": "Enter your project description",
+  "author": {
+    "name": "Name",
+    "email": "example@example.com"
+  },
+  "version": "0.1.0",
+  "binaryname": "go-gui",
+  "frontend": {
+    "dir": "frontend",
+    "install": "npm install",
+    "build": "npx ng build --output-hashing none --prod",
+    "bridge": "src",
+    "serve": "npm run serve"
+  },
+  "tags": "",
+  "WailsVersion": "",
+  "CrossCompile": false,
+  "Platform": "",
+  "Architecture": "",
+  "LdFlags": "",
+  "GoPath": "",
+  "UseFirebug": false
+}
